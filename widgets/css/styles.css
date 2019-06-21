@@ -1,0 +1,38 @@
+#root div{
+  margin: 0 auto;
+}
+h1 {
+  
+}
+
+h2 {
+  font-size: 30px;
+  font-family: Ubuntu;
+  display: inline-block;
+  /* font-weight: bold; */
+  
+}
+.clock-wrapper {
+  width: 500px;
+}
+
+.clock {
+  font-size: 32px;
+  font-family: Ubuntu;
+  text-shadow: 5px 5px 5px black;
+  /* background: slategray; */
+  background-image: url('https://pngimg.com/uploads/moustache/moustache_PNG37.png');
+  background-size: 5%;
+  /* background-repeat: no-repeat; */
+  color: khaki;
+  width: 500px;
+  padding: 20px 40px;
+  border: double 4px black;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+.time, .date {
+  display: flex;
+  justify-content: space-between;
+}
